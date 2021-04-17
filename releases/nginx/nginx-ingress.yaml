@@ -8,7 +8,7 @@ spec:
   chart:
     git: https://github.com/infbase/GlobalAzure2021.git
     path: charts/nginx-ingress
-    ref: master
+    ref: main
   values:
     image:
       repository: quay.io/kubernetes-ingress-controller/nginx-ingress-controller
